@@ -42,6 +42,8 @@ public class Models {
 		String yellow_alarm;
 		String red_alarm;
 
+		String etco2;
+
 		public HL7VitalSign() {
 		}
 		
@@ -72,6 +74,8 @@ public class Models {
 			
 			if (isValidValue(vs.yellow_alarm)) yellow_alarm = vs.yellow_alarm;
 			if (isValidValue(vs.red_alarm)) red_alarm = vs.red_alarm;
+
+			if (isValidValue(vs.etco2)) etco2 = vs.etco2;
 		}
 
 		public String toString() {
@@ -137,6 +141,10 @@ public class Models {
 			}
 			if (isValidValue(red_alarm)) {
 				json.put("RED_ALARM", red_alarm);
+			}
+
+			if (isValidValue(etco2)) {
+				json.put("ETCO2", etco2);
 			}
 
 			if (!json.isEmpty()) {
