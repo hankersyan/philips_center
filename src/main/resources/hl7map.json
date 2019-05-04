@@ -1,0 +1,23 @@
+{
+	"Pulse": "PULSE",
+	"HR": "HR",
+	"Resp": "RESP",
+	"Temp": "TEMP",
+	"SpO2": "SPO2",
+	"NBPs": "NBPS",
+	"NBPd": "NBPD",
+	"NBPm": "NBPM",
+	"ABPs": "ABPS",
+	"ABPd": "ABPD",
+	"ABPm": "ABPM",
+	"CVPs": "CVPS",
+	"CVPd": "CVPD",
+	"CVPm": "CVPM",
+	"PAPs": "PAPS",
+	"PAPd": "PAPD",
+	"PAPm": "PAPM",
+	"Yellow Alarm": "YELLOW_ALARM", // MDIL
+	"Red Alarm": "RED_ALARM",
+	"Red": "RED_ALARM", // SDN
+	"Yellow": "YELLOW_ALARM"
+}
