@@ -1,4 +1,4 @@
-# Philips_Center Data Capture
+# Data Capture for Philips central monitoring system and some patient monitor 
 This data capture acts as a server and complies HL7 protocol that is suitable for 
 - philips central monitoring system
 - Philips SureSigns VM8, VM6
